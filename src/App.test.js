@@ -31,7 +31,7 @@ test("buttons turns blue when clicked", () => {
 
   expect(colorButton).toHaveStyle({ backgroundColor: initialColors.color2 });
 
-  expect(colorButton.textContent).toHaveTextContent(
+  expect(colorButton).toHaveTextContent(
     `Change to ${replaceCamelWithSpaces(initialColors.color1)}`
   );
 });
